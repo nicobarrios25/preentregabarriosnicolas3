@@ -1,0 +1,139 @@
+header {
+    display: flex;
+    height: 130px;
+    background-color: rgb(39, 41, 44);
+    justify-content: center;
+    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: x-large;
+    padding: 10px;
+ }
+
+.slogan {
+   justify-content: center;
+   display: flex;
+   font-family: fantasy;
+}
+ .logo img {
+    height: 120px;
+    justify-content: center;
+     }
+
+ h2 {
+    color: rgb(54, 122, 35);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 800;
+    font-size: larger;
+   background-image: url(../assets/img/fondo/gray-concrete-wall.jpg);
+}
+h3 {
+   justify-content: center;
+   font-style: oblique;
+   display: flex;
+   color: rgb(54, 122, 35)
+}
+
+.datos {
+   justify-content: center;
+   font-size: small;
+   display: flex;
+}
+footer {
+   justify-content: end;
+   font-size: x-large;
+   align-items: center;
+   flex-direction: column;
+}
+.copy {
+   justify-content: flex-end;
+   font-weight: 500;
+   font-size: x-small;
+   border-color: blue;
+}
+.imagimag {
+   justify-content: center;
+   display: flex;
+}
+.vidvid {
+   justify-content: center;
+   display: flex;
+}
+.inicio {
+   justify-content: flex-start;
+   font-size: small;
+   font-weight: 300;
+   display: flex;
+}
+.serv {
+   justify-content: center;
+   display: flex;
+}
+.sendemail {
+   justify-content: center;
+   display: flex;
+   font-weight: bolder;
+   align-items: center;
+   flex-direction: column;
+}
+
+.corpimg2 {
+   justify-content: center;
+   display: flex;
+   font-weight: bolder;
+   align-items: center;
+   flex-direction: column;
+}
+.vidrimg2 {
+   justify-content: center;
+   display: flex;
+   font-weight: bolder;
+   align-items: center;
+   flex-direction: column;
+}
+.ploteoimg2 {
+   justify-content: center;
+   display: flex;
+   font-weight: bolder;
+   align-items: center;
+   flex-direction: column; 
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+      .corpimg {
+         display: grid;
+         grid-template-columns: repeat(2, 45%);
+         grid-template-rows: 50vh repeat(2, 45vh);
+      }
+      .corpimg2 {
+         width: 100%;
+         height: 100%;
+      }
+   }
+
+   .vidri {
+   justify-content: center;
+   display: flex;
+   font-weight: bolder;
+   align-items: center;
+   flex-direction: column;
+   }
+   .plotvid {
+   justify-content: center;
+   display: flex;
+   font-weight: bolder;
+   align-items: center;
+   flex-direction: column;
+   }
+   .corpvid {
+   justify-content: center;
+   display: flex;
+   font-weight: bolder;
+   align-items: center;
+   flex-direction: column;
+   }
